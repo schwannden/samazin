@@ -1,0 +1,747 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="keywords" content="statistics machine learning workshop">
+<meta name="description" content="2017 winter workshop on statistical machine learning">
+<title>SAmazin - Statistical Machine Learning</title>
+
+<!--Bootstrap -->
+<link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css">
+<!--Custome Style -->
+<link rel="stylesheet" href="assets/css/style.css" type="text/css">
+<!--OWL Carousel slider-->
+<link rel="stylesheet" href="assets/css/owl.carousel.css" type="text/css">
+<link rel="stylesheet" href="assets/css/owl.transitions.css" type="text/css">
+<!-- Custom Colors -->
+<link rel="stylesheet" type="text/css" href="assets/switcher/css/red.css" title="red" media="all" />
+<!--<link rel="stylesheet" type="text/css" href="assets/switcher/css/orange.css" title="orange" media="all" />-->
+<!-- <link rel="stylesheet" type="text/css" href="assets/switcher/css/blue.css" title="blue" media="all" /> -->
+<!-- <link rel="stylesheet" type="text/css" href="assets/switcher/css/pink.css" title="pink" media="all" /> -->
+<!-- <link rel="stylesheet" type="text/css" href="assets/switcher/css/green.css" title="green" media="all" /> -->
+<!-- <link rel="stylesheet" type="text/css" href="assets/switcher/css/purple.css" title="purple" media="all" /> -->
+        
+<!--FontAwesome Font Style -->
+<link href="assets/css/font-awesome.min.css" rel="stylesheet">
+<!-- Fav and touch icons -->
+<link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="60x60" href="assets/images/favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="120x120" href="assets/images/favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="76x76" href="assets/images/favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="152x152" href="assets/images/favicon/apple-icon-152x152.png">
+<meta name="apple-mobile-web-app-title" content="SAmazin">
+<link rel="icon" type="image/png" href="assets/images/favicon/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="assets/images/favicon/favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="assets/images/favicon/favicon-32x32.png" sizes="32x32">
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+</head>
+<body id="home">
+       
+<!-- Navigation -->
+<nav id="navigation" class="navigation">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-1 col-md-push-11 text-right">
+        <div id="menu-toggle-close"> <i class="fa fa-times" aria-hidden="true"></i> </div>
+      </div>
+      <div class="col-md-11 col-md-pull-1">
+        <ul class="nav navbar-nav">
+          <li><a href="#home" class="js-target-scroll">Home</a></li>
+          <li><a href="#about" class="js-target-scroll">About Us</a></li>
+          <li><a href="#schedule" class="js-target-scroll">Schedule</a></li>
+          <li><a href="#speakers" class="js-target-scroll">Speakers</a></li>
+          <li><a href="#pricing" class="js-target-scroll">Pricing</a></li>
+          <li><a href="#faq" class="js-target-scroll">FAQ</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+<!-- /Navigation --> 
+
+<!--Header-->
+<header class="nav-stacked affix-top" data-spy="affix" data-offset-top="100">
+  <div class="container">
+    <div class="row"> 
+      <!-- logo -->
+      <div class="col-xs-4 col-sm-2 col-sm-push-5">
+        <div class="logo"> 
+          <a href="index.html">
+            <img src="assets/images/logo.png" alt="samazin" width="140" height="36">
+          </a>
+        </div>
+      </div>
+      <!-- /logo --> 
+      
+      <!-- contact number -->
+      <div class="col-xs-6 col-sm-5 col-sm-pull-2">
+      </div>
+      <!-- /contact number --> 
+      
+      <!-- Menu-toggle -->
+      <div class="col-xs-2 col-sm-5">
+        <div  class="text-right">
+          <div id="menu-toggle-bar"> <i class="fa fa-bars" aria-hidden="true"></i> </div>
+        </div>
+      </div>
+      <!-- /Menu-toggle --> 
+    </div>
+  </div>
+</header>
+<!-- /Header --> 
+
+<!-- Banners -->
+<section id="banner" class="banner-section"> 
+  <!-- Banner Tagline -->
+  <div class="banner-fixed">
+    <div class="container">
+      <div class="banner-content">
+        <div class="banner-tagline text-center">
+          <h1> Machine Learning Workshop</h1>
+          <p> 2017/1-2017/12, NCTU, Taiwan</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /Banners Tagline --> 
+  
+  <!-- Banners Timer -->
+  <div class="container countdown-tab">
+    <div class="countdown">
+      <div class="counter-sec">
+        <div class="countdown-counter half-width text-center">
+          <div class="timer">
+            <div class="countdown styled"></div>
+          </div>
+        </div>
+        <div class="countdown-btn half-width"> <a href="#" class="btn btn-lg btn-danger" data-toggle="modal" data-target="#registration_form" >Register Today</a> </div>
+      </div>
+    </div>
+  </div>
+  <!-- /Banners Timer -->
+  
+  <div class="dark-overlay"></div>
+</section>
+<!-- /Banners --> 
+
+<!-- About Conference-->
+<section  id="about" class="about-section section-padding">
+  <div class="container">
+    <div class="row"> 
+      <!-- About Content -->
+      <div class="col-md-6 col-sm-6">
+        <div class="about-sec">
+          <div class="about-content">
+            <h2>Motivation</h2>
+            <p> The field of Statistics is constantly challenged by the problems that science
+            and industry brings to its door. In the early days, these problems were relatively small in
+            scope, But with the advent of computers and the information age, statistical
+            problems have exploded both in size and complexity. Vast amounts of data are being
+            generated in many fields, and the statistician’s job is to make sense of it
+            all: to extract important patterns and trends, and understand “what the
+            data says.” We call this learning from data.</p>
+            <p>The challenges in learning from data have led to a revolution in the statistical sciences. 
+            Since computation plays such a key role, it is not surprising
+            that much of this new development has been done by researchers in other
+            fields such as computer science and engineering.</p>
+            <p>This workshop is our attempt to bring together many of the new
+            ideas in learning, and explain them in a statistical framework. While some
+            mathematical details are needed, we emphasize the methods and their conceptual 
+            underpinnings rather than their theoretical properties. As a result,
+            we hope that this workshop will appeal not just to statisticians but also to
+            researchers and practitioners in a wide variety of fields.</p>
+          </div>
+        </div>
+      </div>
+      <!-- /About Content --> 
+      
+      <!-- Carousel Slider -->
+      <div class="col-md-6 col-sm-6 ">
+        <div class="about-carousel border-box">
+          <div class="carousel slide" id="aboutCarousel" data-ride="carousel"> 
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active"><img src=" assets/images/mathtree.png" alt="" class="center-block"></div>
+              <div class="item"><img src=" assets/images/book.png" alt="" class="center-block"></div>
+              <div class="item"><img src=" assets/images/info.png" alt="" class="center-block"></div>
+            </div>
+            
+            <!-- Left and right controls --> 
+            <a class="left carousel-control" href="#aboutCarousel" role="button" data-slide="prev"> <span class="fa fa-angle-left" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="right carousel-control" href="#aboutCarousel" role="button" data-slide="next"> <span class="fa fa-angle-right" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
+        </div>
+      </div>
+      <!-- /Carousel Slider --> 
+      
+    </div>
+  </div>
+</section>
+<!-- /About Conference--> 
+
+<!-- Schedule -->
+<section id="schedule" class="conference-schedule section-padding secondary-bg">
+  <div class="container">
+    <div class="row"> 
+      <!-- Heading -->
+      <div class="col-md-12">
+        <div class="heading-sec">
+          <div class="section-header text-center">
+            <h2>Seminar Schedule</h2>
+          </div>
+        </div>
+      </div>
+      <!-- /Heading --> 
+    </div>
+    <div class="row">
+      <div class="col-sm-12 col-lg-12">
+        <div class="day-time-m">
+          <ul data-tabs="tabs">
+            <li class="active"><a href="#day1" data-toggle="tab">1/22 Sun. </a></li>
+            <li><a href="#day2" data-toggle="tab">1/15 Wed.</a></li>
+            <li><a href="#day3" data-toggle="tab">2/3 Fri.</a></li>
+            <li><a href="#day4" data-toggle="tab">2/6 Mon.</a></li>
+            <li><a href="#day5" data-toggle="tab">2/9 Thu.</a></li>
+            <li><a href="#day6" data-toggle="tab">2/13 Mon.</a></li>
+          </ul>
+        </div>
+        <div id="my-tab-content" class="tab-content"> 
+          <!--Day 1 schedule-->
+          <div class="tab-pane active" id="day1">
+            <div class="conference-time-list">
+              <div class="conf-user-time"> <span class="time">6:00</span> <span class="time-schedule">pm</span> </div>
+              <div class="conf-user-img"> <img class="img-responsive center-block" src="assets/images/thumbYang.png" alt=""> </div>
+              <div class="conf-user-info">
+                <h5> Linear Model </h5>
+                <h6> 楊聲濤 - Statistician </h6>
+                <a  href="#collapse11" data-toggle="collapse" role="button" class="conf-close menu-down" aria-expanded="true"> <i class="fa fa-angle-right" ></i> </a>
+                <div role="tabpanel" class="collapse in" id="collapse11" aria-expanded="true" style="">
+                  <div class="conf-user-content">
+                    <p> In this 3 hours talk, Yang will talk about the basic properties of a linear model while emphasizing on its statistical properties. This talk will pave ways for the future talks to come, since linear model lays the foundation for various machine method and model selection criteria.</p>
+                    <p> For some good resource for review, 
+                      <a href="http://schwannden.com/archives/13643" target=_blank>
+                        This document
+                      </a>
+                      gives a concise review on regression concept from a more engineer point of view.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="conference-time-list">
+              <div class="conf-user-time"> <span class="time">9:00</span> <span class="time-schedule">pm</span> </div>
+              <div class="conf-user-img"> <img class="img-responsive center-block" src="assets/images/thumbYang.png" alt=""> </div>
+              <div class="conf-user-info">
+                <h5> Linear Model </h5>
+                <h6> 楊聲濤 - Statistician </h6>
+                <a  href="#collapse12" data-toggle="collapse" role="button" class="collapsed conf-close" aria-expanded="false"> <i class="fa fa-angle-right" aria-hidden="true"></i> </a>
+                <div role="tabpanel" class="collapse" id="collapse12" aria-expanded="false" style="height: 0px;">
+                  <div class="conf-user-content">
+                    <p> Q - A</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--/Day 1 schedule--> 
+          <!--Day 2 schedule-->
+          <div class="tab-pane" id="day2">
+            <div class="conference-time-list">
+              <div class="conf-user-time"> <span class="time">2:00</span> <span class="time-schedule">pm</span> </div>
+              <div class="conf-user-img"> <img class="img-responsive center-block" src="assets/images/thumbSch.png" alt="schwannden"> </div>
+              <div class="conf-user-info">
+                <h5>Time Series</h5>
+                <h6>Schwannden - Computer Scientist / Statistics Enthusiastic</h6>
+                <a  href="#collapse21" data-toggle="collapse" role="button" class="conf-close menu-down" aria-expanded="true"> <i class="fa fa-angle-right" ></i> </a>
+                <div role="tabpanel" class="collapse in" id="collapse21" aria-expanded="true">
+                  <div class="conf-user-content">
+                    <p> Time series model is rich both in its theory and history. In this talk we briefly talk about the concepts and challenges of dependent data, then quickly move on to time series - a very common type of dependent data. </p>
+                    <p> Schwannden will introduce the classical models of time series (Liner model, VAR, and VARMA). We will walk through the basic mathematical principles of these various model, compare them with linear model, and talk about Granger causality.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="conference-time-list">
+              <div class="conf-user-time"> <span class="time">5:00</span> <span class="time-schedule">pm</span> </div>
+              <div class="conf-user-img"> <img class="img-responsive center-block" src="assets/images/thumbSch.png" alt="schwannden"> </div>
+              <div class="conf-user-info">
+                <h5>Time Series</h5>
+                <h6>Schwannden - Computer Scientist / Statistics Enthusiastic</h6>
+                <a href="#collapse22" data-toggle="collapse" role="button" class="collapsed conf-close" aria-expanded="false"> <i class="fa fa-angle-right" aria-hidden="true"></i> </a>
+                <div role="tabpanel" class="collapse" id="collapse22" aria-expanded="false" style="height: 0px;">
+                  <div class="conf-user-content">
+                    <p> Q - A</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--/Day 2 schedule--> 
+          <!--Day 3 schedule-->
+          <div class="tab-pane" id="day3">
+            <div class="conference-time-list">
+              <div class="conf-user-time"> <span class="time">2:00</span> <span class="time-schedule">pm</span> </div>
+              <div class="conf-user-img"> <img class="img-responsive center-block" src="assets/images/thumbTsai.png" alt=""> </div>
+              <div class="conf-user-info">
+                <h5>EM and Variational Inference</h5>
+                <h6>Cober Tsaiui - Engineer</h6>
+                <a href="#collapse31" data-toggle="collapse" role="button" class="conf-close menu-down" aria-expanded="true"> <i class="fa fa-angle-right" aria-hidden="true"></i> </a>
+                <div role="tabpanel" class="collapse in" id="collapse31" aria-expanded="false" style="">
+                  <div class="conf-user-content">
+                    <p> In mixture model, Bayesian network, or other complex model with latent structure, our predictive distribution often can not be solved analytically. Method like EM (expectation maximizatrion) or variational inference provide us a way to approximate predictive distribution in a computationally acceptable manner.</p>
+                    <p> Other method for approximation like sampling method will be given in later talks. But in practice, sampling methods can be compu tationally demanding, often limiting their use to small-scale problems. Also, it can be difficult to know whether a sampling scheme is generating independent samples from the required distribution.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="conference-time-list">
+              <div class="conf-user-time"> <span class="time">5:00</span> <span class="time-schedule">pm</span> </div>
+              <div class="conf-user-img"> <img class="img-responsive center-block" src="assets/images/thumbTsai.png" alt=""> </div>
+              <div class="conf-user-info">
+                <h5>EM and Variational Inference</h5>
+                <h6>Cober Tsaiui - Engineer</h6>
+                <a href="#collapse32" data-toggle="collapse" role="button" class="collapsed conf-close" aria-expanded="false"> <i class="fa fa-angle-right" aria-hidden="true"></i> </a>
+                <div role="tabpanel" class="collapse" id="collapse32" aria-expanded="false" style="height: 0px;">
+                  <div class="conf-user-content">
+                    <p>Q - A</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--/Day 3 schedule--> 
+          <!--Day 4 schedule-->
+          <div class="tab-pane" id="day4">
+            <div class="conference-time-list">
+              <div class="conf-user-time"> <span class="time">2:00</span> <span class="time-schedule">pm</span> </div>
+              <div class="conf-user-img"> <img class="img-responsive center-block" src="assets/images/thumbYang.png" alt=""> </div>
+              <div class="conf-user-info">
+                <h5>Model Selection</h5>
+                <h6>楊聲濤 - Statistician</h6>
+                <a href="#collapse41" data-toggle="collapse" role="button" class="conf-close menu-down" aria-expanded="true"> <i class="fa fa-angle-right" aria-hidden="true"></i> </a>
+                <div role="tabpanel" class="collapse in" id="collapse41" aria-expanded="false" style="">
+                  <div class="conf-user-content">
+                    <p>Model selection is the task of selecting a statistical model from a set of candidate models, given data. In the simplest cases, a pre-existing set of data is considered. However, the task can also involve the design of experiments such that the data collected is well-suited to the problem of model selection. Given candidate models of similar predictive or explanatory power, the simplest model is most likely to be the best choice.</p>
+                    <p> In 21st century, the advance of our computation power is not catching up with the increase in both amount and dimension of our data. This makes intelligent model selection a popular topic, and a practical challenge to our existing application.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="conference-time-list">
+              <div class="conf-user-time"> <span class="time">5:00</span> <span class="time-schedule">pm</span> </div>
+              <div class="conf-user-img"> <img class="img-responsive center-block" src="assets/images/thumbYang.png" alt=""> </div>
+              <div class="conf-user-info">
+                <h5>Model Selection</h5>
+                <h6>楊聲濤 - Statistician</h6>
+                <a href="#collapse42" data-toggle="collapse" role="button" class="collapsed conf-close" aria-expanded="false"> <i class="fa fa-angle-right" aria-hidden="true"></i> </a>
+                <div role="tabpanel" class="collapse" id="collapse42" aria-expanded="false" style="height: 0px;">
+                  <div class="conf-user-content">
+                    <p>Q - A</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--/Day 4 schedule--> 
+          <!--Day 5 schedule-->
+          <div class="tab-pane" id="day5">
+            <div class="conference-time-list">
+              <div class="conf-user-time"> <span class="time">2:00</span> <span class="time-schedule">pm</span> </div>
+              <div class="conf-user-img"> <img class="img-responsive center-block" src="assets/images/thumbTsou.png" alt=""> </div>
+              <div class="conf-user-info">
+                <h5>Sampling Method</h5>
+                <h6>鄒季哲 - Computer Scientist</h6>
+                <a href="#collapse51" data-toggle="collapse" role="button" class="conf-close menu-down" aria-expanded="true"> <i class="fa fa-angle-right" aria-hidden="true"></i> </a>
+                <div role="tabpanel" class="collapse in" id="collapse51" aria-expanded="false" style="">
+                  <div class="conf-user-content">
+                    <p>For most probabilistic models of practical interest, exact inference is intractable, and
+                    so we have to resort to some form of approximation. In last talk, we discussed
+                    inference algorithms based on deterministic approximations, which include methods
+                    such as variational Bayes and expectation propagation. Here we consider approximate 
+                    inference methods based on numerical sampling, also known as Monte Carlo
+                    techniques.</p>
+                    <p> This this talk, we try to give the methematical background for sampling method, and give examples on MCMC, Gibb's sampling, rejection sampling, and Metropolis–Hastings.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="conference-time-list">
+              <div class="conf-user-time"> <span class="time">5:00</span> <span class="time-schedule">pm</span> </div>
+              <div class="conf-user-img"> <img class="img-responsive center-block" src="assets/images/thumbTsou.png" alt=""> </div>
+              <div class="conf-user-info">
+                <h5>Sampling Method</h5>
+                <h6>鄒季哲 - Computer Scientist</h6>
+                <a href="#collapse52" data-toggle="collapse" role="button" class="collapsed conf-close" aria-expanded="false"> <i class="fa fa-angle-right" aria-hidden="true"></i> </a>
+                <div role="tabpanel" class="collapse" id="collapse52" aria-expanded="false" style="height: 0px;">
+                  <div class="conf-user-content">
+                    <p>Q - A</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--/Day 5 schedule--> 
+          <!--Day 6 schedule-->
+          <div class="tab-pane" id="day6">
+            <div class="conference-time-list">
+              <div class="conf-user-time"> <span class="time">6:00</span> <span class="time-schedule">pm</span> </div>
+              <div class="conf-user-img"> <img class="img-responsive center-block" src="assets/images/thumbMa.png" alt=""> </div>
+              <div class="conf-user-info">
+                <h5>Bootstrap</h5>
+                <h6>Martinet Lee - Education Worker</h6>
+                <a href="#collapse61" data-toggle="collapse" role="button" class="conf-close menu-down" aria-expanded="true"> <i class="fa fa-angle-right" aria-hidden="true"></i> </a>
+                <div role="tabpanel" class="collapse in" id="collapse61" aria-expanded="false" style="">
+                  <div class="conf-user-content">
+                    <p> If you are a statistician, you are very attached to your p-values and saying variables have "significant effects." But in modren day model, we often do not have a analycally solvable statistics for us to do hypothesis testing. Bootstrap provides us a mean to do hypothesis testing even if we don't know the exact distribution of our statistics.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="conference-time-list">
+              <div class="conf-user-time"> <span class="time">9:00</span> <span class="time-schedule">pm</span> </div>
+              <div class="conf-user-img"> <img class="img-responsive center-block" src="assets/images/thumbMa.png" alt=""> </div>
+              <div class="conf-user-info">
+                <h5>Bootstrap</h5>
+                <h6>Martinet Lee - Education Worker</h6>
+                <a href="#collapse62" data-toggle="collapse" role="button" class="collapsed conf-close" aria-expanded="false"> <i class="fa fa-angle-right" aria-hidden="true"></i> </a>
+                <div role="tabpanel" class="collapse" id="collapse62" aria-expanded="false" style="height: 0px;">
+                  <div class="conf-user-content">
+                    <p>Q - A</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--/Day 6 schedule--> 
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /Schedule --> 
+
+<!-- Speakers -->
+<section  id="speakers" class="spearker-section section-padding">
+  <div class="container">
+    <div class="row"> 
+      <!-- Heading -->
+      <div class="col-md-12">
+        <div class="heading-sec">
+          <div class="section-header text-center">
+            <h2>Our Speakers</h2>
+            <p> We are just a bunch of data analysis, machine learning enthusiastics, 
+            getting together to help each other understand the less talks about 
+            topics in school (well, in Taiwan's school). We come from different 
+            background, and we hope a talk like this will provide perspectives into 
+            how people from difference field of practice look at similar problem.</p>
+          </div>
+        </div>
+      </div>
+      <!-- /Heading --> 
+    </div>
+    <div class="row"> 
+      <!-- speakers -->
+      <div class="col-xs-12 col-sm-4 col-md-4">
+        <div class="speaker-sec">
+          <div class="speaker-info-box text-center border-box">
+            <div class="spearker-img"> <img src="assets/images/profileSch.png" alt="" class="img-responsive center-block"> </div>
+            <div class="speaker-hover">
+              <div class="social-icons text-center"> <a href="http://schwannden.com"><i class="fa fa-info-circle" aria-hidden="true"></i></a> </div>
+            </div>
+          </div>
+          <div class="speaker-info">
+            <h5><a href="">Schwannden Kuo</a></h5>
+            <h6>Computer Scientist</h6>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4 col-md-4">
+        <div class="speaker-sec">
+          <div class="speaker-info-box text-center border-box">
+            <div class="spearker-img"> <img src="assets/images/profileYang.png" alt="" class="img-responsive center-block"> </div>
+            <div class="speaker-hover">
+              <div class="social-icons text-center"> <a href=""><i class="fa fa-info-circle" aria-hidden="true"></i></a> </div>
+            </div>
+          </div>
+          <div class="speaker-info">
+            <h5><a href="">楊聲濤</a></h5>
+            <h6>Statistician</h6>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4 col-md-4">
+        <div class="speaker-sec">
+          <div class="speaker-info-box text-center border-box">
+            <div class="spearker-img"> <img src="assets/images/profileTsai.jpg" alt="" class="img-responsive center-block"> </div>
+            <div class="speaker-hover">
+              <div class="social-icons text-center"> <a href=""><i class="fa fa-info-circle" aria-hidden="true"></i></a> </div>
+            </div>
+          </div>
+          <div class="speaker-info">
+            <h5><a href="">Cober Tsai</a></h5>
+            <h6>Engineer</h6>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4 col-md-4">
+        <div class="speaker-sec">
+          <div class="speaker-info-box text-center border-box">
+            <div class="spearker-img"> <img src="assets/images/profileMa.png" alt="" class="img-responsive center-block"> </div>
+            <div class="speaker-hover">
+              <div class="social-icons text-center"> <a href=""><i class="fa fa-info-circle" aria-hidden="true"></i></a> </div>
+            </div>
+          </div>
+          <div class="speaker-info">
+            <h5><a href="">Martinet Lee</a></h5>
+            <h6>Education Worker</h6>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4 col-md-4">
+        <div class="speaker-sec">
+          <div class="speaker-info-box text-center border-box">
+            <div class="spearker-img"> <img src="assets/images/profileTsou.png" alt="" class="img-responsive center-block"> </div>
+            <div class="speaker-hover">
+              <div class="social-icons text-center"> <a href=""><i class="fa fa-info-circle" aria-hidden="true"></i></a> </div>
+            </div>
+          </div>
+          <div class="speaker-info">
+            <h5><a href="">鄒季哲</a></h5>
+            <h6>Computer Scientist</h6>
+          </div>
+        </div>
+      </div>
+      <!-- /speakers --> 
+    </div>
+  </div>
+</section>
+<!-- /Speakers --> 
+
+<!-- Pricinig -->
+<section id="pricing" class="registration-price section-padding">
+  <div class="container">
+    <div class="row"> 
+      <!-- Heading -->
+      <div class="col-md-12">
+        <div class="heading-sec">
+          <div class="section-header text-center">
+            <h2>Registration Price</h2>
+            <p> It is almost free. The minimum participation requires a 50 NTD entrance fee. 
+            And you are free to give more to the speaker if you feel like so.</p>
+          </div>
+        </div>
+      </div>
+      <!-- /Heading --> 
+    </div>
+    <div class="row">
+      <div class="col-sm-6 col-xs-12 pricing_wrap">
+        <div class="regi-price-table border-box">
+          <div class="table-price-box secondary-bg">
+            <h5> Minimum </h5>
+            <div class="regi-price-box">
+              <p>$50</p>
+            </div>
+          </div>
+          <div class="table-price-detail">
+            <ul>
+              <li><i class="fa fa-check" aria-hidden="true"></i>Seat</li>
+              <li><i class="fa fa-times" aria-hidden="true"></i>Liked your talk</li>
+              <li><i class="fa fa-times" aria-hidden="true"></i>AMAZING!</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-xs-12 pricing_wrap">
+        <div class="regi-price-table border-box">
+          <div class="table-price-box secondary-bg">
+            <h5> Respect</h5>
+            <div class="regi-price-box">
+              <p>$51 up</p>
+            </div>
+          </div>
+          <div class="table-price-detail">
+            <ul>
+              <li><i class="fa fa-check" aria-hidden="true"></i>Seat</li>
+              <li><i class="fa fa-check" aria-hidden="true"></i>Liked your talk</li>
+              <li><i class="fa fa-check" aria-hidden="true"></i>AMAZING!</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</section>
+<!-- /Pricinig --> 
+
+<!-- FAQ -->
+<section id="faq" class="secondary-bg vc_row">
+  <div class=" col-md-6 vc_col section-padding">
+    <div class="vc_column-inner">
+      <div class="faq-box-m width50-right">
+        <h2>Some Questions ?</h2>
+        <div role="tablist" id="accordion1" class="panel-group"> 
+          <!-- accordion 1 -->
+          <div class="panel panel-default">
+            <div role="tab" class="panel-heading">
+              <h4 class="panel-title"> 
+                <a href="#collapse03" data-parent="#accordion1" data-toggle="collapse" 
+                  role="button" class="collapsed" aria-expanded="true"> SAmazin stands for ? </a> 
+              </h4>
+            </div>
+            <div role="tabpanel" class="panel-collapse collapse in" id="collapse03" aria-expanded="true" style="">
+              <div class="panel-body">
+              <p>
+                <strong>S</strong>tatistics is <strong>Amazin</strong>g, or<br/>
+                <strong>S</strong>tatistical <strong>M</strong>chine Le<strong>a</strong>r<strong>nin</strong>g, or<br/>
+                <strong>S</strong>chwannden is <strong>Amazin</strong>g.
+              </p>
+              </div>
+            </div>
+          </div>
+          
+          <!-- accordion 2 -->
+          <div class="panel panel-default">
+            <div role="tab" class="panel-heading">
+              <h4 class="panel-title"> <a href="#collapse02" data-parent="#accordion1" data-toggle="collapse" role="button" class="collapsed" aria-expanded="false"> What are the pre-requisite for the talks ? </a> </h4>
+            </div>
+            <div role="tabpanel" class="panel-collapse collapse" id="collapse02" aria-expanded="false" style="height: 0px;">
+              <div class="panel-body">
+                <p> Each talk differ in its scope and depth, but ingeneral, it is great if you have basic concepts of probability and statistics. Familiarity with linear algebra is of great help.</p>
+              </div>
+            </div>
+          </div>
+          
+          <!-- accordion 3 -->
+          <div class="panel panel-default">
+            <div role="tab" class="panel-heading">
+              <h4 class="panel-title"> <a href="#collapse01" data-parent="#accordion1" data-toggle="collapse" role="button" aria-expanded="false" class=""> How do I pay or get ticket ? </a> </h4>
+            </div>
+            <div role="tabpanel" class="panel-collapse collapse" id="collapse01" aria-expanded="false" style="">
+              <div class="panel-body">
+                <p> There is no such thing as ticket. And we will put a box at the lecture room, you are free to donate what you feel worth to the speaker.</p>
+              </div>
+            </div>
+          </div>
+          
+          <!-- accordion 4 -->
+          <div class="panel panel-default">
+            <div role="tab" class="panel-heading">
+              <h4 class="panel-title"> <a href="#collapse04" data-parent="#accordion1" data-toggle="collapse" role="button" class="collapsed" aria-expanded="false"> If I never learned probability, could I still come ? </a> </h4>
+            </div>
+            <div role="tabpanel" class="panel-collapse collapse" id="collapse04" aria-expanded="false" style="height: 0px;">
+              <div class="panel-body">
+                <p> NO. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6 vc_col section-padding">
+    <div class="vc_column-inner">
+      <div class="sport-video-box width50-left">
+        <h3> Some Good Review on machine learning</h3>
+        <div class="video-box">
+          <iframe class="mfp-iframe" src="https://www.youtube.com/embed/UtcKm8i5Xro?list=PLZSO_6-bSqHTTV7w9u7grTXBHMH-mw3qn" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+    <div class="section-conference-bg faq_bg"></div>
+    <div class="red-overlay"></div>
+  </div>
+</section>
+<!-- /FAQ --> 
+
+
+<!--Footer-->
+<footer class="secondary-bg">
+  <div class="copyright fourth-bg">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <p>Copyright &copy; 2017 <a href="http://schwannden.com">Schwannden Studio</a>. All Rights Reserved</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!--/Footer--> 
+
+<!--Back to top-->
+<div id="back-top" class="back-top"> <a href="#top"><i class="fa fa-angle-up" aria-hidden="true"></i> </a> </div>
+<!--/Back to top--> 
+
+<!--Registration Form-->
+<div id="registration_form" class="modal fade" role="dialog">
+  <div class="modal-dialog"> 
+    <!-- Modal content-->
+    <div class="modal-content padding_4x4_40 text-center">
+      <div class="modal-header">
+        <h3>Reserve Your Seat</h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      </div>
+      <form id="js-ajax-form" class="js-ajax-form">
+        <div class="form-group">
+          <input class="form-control" name="name" type="text" placeholder="Full Name" required="">
+        </div>
+        <div class="form-group">
+          <input class="form-control" name="email" type="email" placeholder="Email Address" required="">
+        </div>
+        <div class="form-group">
+          <input class="btn" name="register-btn" type="submit" value="Register Now!">
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+<!--/Registration Form--> 
+
+<!-- Registration-success-message -->
+<div id="success" class="modal modal-message fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header"> <span class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></span>
+        <h2 class="modal-title">Thank You!</h2>
+        <p class="modal-subtitle">Your message is successfully sent...</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!--/Registration-success-message	--> 
+
+<!-- Registration-error -->
+<div id="error" class="modal modal-message fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header"> <span class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></span>
+        <h2 class="modal-title">Sorry...</h2>
+        <p class="modal-subtitle"> Something went wrong </p>
+      </div>
+    </div>
+  </div>
+</div>
+<!--/Registration-error--> 
+
+<!-- Scripts --> 
+<script src="assets/js/jquery.min.js"></script> 
+<script src="assets/js/jquery.validate.min.js"></script> 
+<script src="assets/js/bootstrap.min.js"></script> 
+<script src="assets/js/interface.js"></script> 
+<script src="assets/js/owl.carousel.min.js"></script> 
+
+<!-- Countdown--> 
+<script src="assets/js/jquery.countdown.min.js"></script>
+</body>
+</html>
