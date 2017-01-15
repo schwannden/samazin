@@ -1,0 +1,3 @@
+Sitemap: http://samazin.schwannden.com/sitemap.xml
+
+User-agent: *
