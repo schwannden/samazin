@@ -74,7 +74,7 @@ $('.conf-close').on('click', function(e) {
 	Countdown
 	-------------------------------------------------------------------*/
  
-	var endDate = "january 22, 2017";
+	var endDate = "febuary 13, 2017";
 	$('.countdown.styled').countdown({
 	  date: endDate,
 	  render: function(data) {
@@ -103,44 +103,6 @@ $('.conf-close').on('click', function(e) {
 			return false;
 		});
 	 
- 
- 
- /*-------------------------------------------------------------------------------
-  Google map
-	-------------------------------------------------------------------------------*/
- 	
-	if ($('#js-gmap').length > 0){
-		var map;
-		map = new GMaps({
-			el: '#js-gmap',
-			lat: -23.976215,
-			lng:133.769531,
-			scrollwheel:false,
-			zoom: 4,
-			zoomControl : true,
-			panControl : false,
-			streetViewControl : false,
-			mapTypeControl: false,
-			overviewMapControl: false,
-			clickable: false
-		});
-		var image = 'assets/images/map-label.png';
-		var infoWindow = new google.maps.InfoWindow({
-		});
-		map.addMarker({
-			lat: -23.976215,
-			lng:133.769531,
-			icon: image,
-			animation: google.maps.Animation.DROP,
-			verticalAlign: 'bottom',
-			horizontalAlign: 'center',
-			backgroundColor: '#d3cfcf',
-			infoWindow:{
-				content: '<div class="map-info">PO Box 1025MNO Collins Street<br>West Victoria 8007 Australia</div>'
-			}
-		});
-	}
- 
  /*-------------------------------------------------------------------------------
   Ajax Form
 	-------------------------------------------------------------------------------*/
